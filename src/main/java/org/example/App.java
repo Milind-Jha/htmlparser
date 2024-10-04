@@ -11,7 +11,7 @@ public class App {
     public static void main(String[] args) {
         try {
             // Step 1: Fetch and parse the HTML page
-            String url = "https://www.techpowerup.com/cpu-specs/?mfgr=Intel&released=2023&server=No&sort=name";  // URL of the page to fetch
+            String url = "https://www.techpowerup.com/cpu-specs/?mfgr=Intel&released=2023&server=No&sort=name"; 
             Document doc = Jsoup.connect(url).get();  // Fetch and parse the HTML
 
             // Step 2: Select all rows in the CPU specs table

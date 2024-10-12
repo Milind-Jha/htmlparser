@@ -18,21 +18,16 @@
     </properties>
 
     <dependencies>
-        <!-- Jsoup dependency for HTML parsing -->
         <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
-            <version>1.14.3</version> <!-- Ensure this version is correct or update it to the latest -->
+            <version>1.14.3</version> 
         </dependency>
-
-        <!-- Jackson Databind for parsing JSON into Map -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.12.5</version> <!-- Ensure this version is correct or update it -->
+            <version>2.12.5</version> 
         </dependency>
-
-        <!-- JUnit dependency for testing -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
